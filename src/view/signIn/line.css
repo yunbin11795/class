@@ -1,0 +1,18 @@
+.box{
+  margin: -8px;
+}
+.box-show{
+  margin-top: 100px;
+}
+.cell{
+  text-align: left;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #3e3e3e;
+  text-indent: 2em;
+}
+.box-show .cell:first-child{
+  border-top: 1px solid #3e3e3e;
+}
+
